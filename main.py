@@ -171,8 +171,10 @@ class Main(MDApp):
             self.wm.add_widget(screen)
         self.wm.current = 'home'
         return self.wm
-    
+
 
 
 if __name__ == '__main__':
     Main().run()
+    print('app is running:)')
+
