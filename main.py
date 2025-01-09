@@ -66,11 +66,12 @@ Builder.load_string('''
             
 ''')
 
-"""TO DO:
-1. Fix the dialog box # DONE
-2. display time # Displays current work time :)
-3. countdown logic
-4. fix ui
+
+"""
+TO DO LIST:
+1. DISPLAY TIME PROPERLY
+2. Countdown Logic
+3. Fix Ui
 """
 
 class WindowManager(ScreenManager):
@@ -177,4 +178,3 @@ class Main(MDApp):
 if __name__ == '__main__':
     Main().run()
     print('app is running:)')
-
